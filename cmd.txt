@@ -1,0 +1,1 @@
+make NDPI_PATH=/home/tbox/ndpi-tbox/nDPI CC=arm-926ejs-linux-gnueabi-gcc ARCH=arm LD=arm-926ejs-linux-gnueabi-ld
