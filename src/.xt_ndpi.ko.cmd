@@ -1,0 +1,1 @@
+cmd_/home/tbox/ndpi-tbox/src/xt_ndpi.ko := arm-926ejs-linux-gnueabi-ld -r  -T ./scripts/module-common.lds --build-id  -o /home/tbox/ndpi-tbox/src/xt_ndpi.ko /home/tbox/ndpi-tbox/src/xt_ndpi.o /home/tbox/ndpi-tbox/src/xt_ndpi.mod.o ;  true

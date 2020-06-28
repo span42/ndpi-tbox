@@ -11,6 +11,7 @@ all:
 		mkdir ${NDPI_SRC}; \
 		cp ${NDPI_PATH2}/* ${NDPI_SRC} -R; \
 	fi
+	cp ${NDPI_SRC}/../../nDPI-patch/src/* ${NDPI_SRC}/ -R;
 	make libxt_ndpi.so
 	rm -r ${NDPI_SRC}
 lib%.so: lib%.o

@@ -39,7 +39,15 @@ struct xt_ndpi_mtinfo {
  - protocols summ per line: 9, 23, 29, 37, 52, 63, 75, 90, 104, 114, 126, 135, 144, 156, 170, 185, 197, 208, 214
 */
 #ifndef NDPI_PROTOCOL_LONG_STRING
-#define NDPI_PROTOCOL_LONG_STRING "Unknown","FTP_CONTROL","MAIL_POP","MAIL_SMTP","MAIL_IMAP","DNS","IPP","HTTP","MDNS","NTP",\
+#define NDPI_PROTOCOL_LONG_STRING "Unknown","FTP_CONTROL","MAIL_POP","MAIL_SMTP","MAIL_IMAP","DNS","HTTP","NTP",\
+"NETBIOS","NFS","SNMP","XDMCP","SMB","SYSLOG","DHCP","POSTGRES","MYSQL","HOTMAIL","DIRECT_DOWNLOAD_LINK","MAIL_POPS",\
+"DIRECTCONNECT","COAP","MAIL_SMTPS","RTSP","MAIL_IMAPS","HTTP_DOWNLOAD","SSL_NO_CERT","TELNET","IPSEC","GRE","ICMP","IGMP","EGP","SCTP","OSPF","IP_IN_IP","RTP","RDP",\
+"SSL","SSH","ICMPV6","DHCPV6","HTTP_APPLICATION_ACTIVESYNC","LDAP","MSSQL_TDS","PPTP","DROPBOX","GMAIL","GOOGLE_MAPS","YOUTUBE","SKYPE","GOOGLE",\
+"HTTP_CONNECT","HTTP_PROXY","WINDOWS_UPDATE","OPENVPN","NOE","CISCOVPN","TOR","RTCP","RSYNC","ORACLE","WHOIS_DAS",\
+"COLLECTD","SOCKS","RTMP","FTP_DATA","ZMQ","REDIS","GIT","OPENDNS","MQTT","CHECK",NULL
+
+/*
+ "Unknown","FTP_CONTROL","MAIL_POP","MAIL_SMTP","MAIL_IMAP","DNS","IPP","HTTP","MDNS","NTP",\
 "NETBIOS","NFS","SSDP","BGP","SNMP","XDMCP","SMB","SYSLOG","DHCP","POSTGRES","MYSQL","HOTMAIL","DIRECT_DOWNLOAD_LINK","MAIL_POPS",\
 "APPLEJUICE","DIRECTCONNECT","SOCRATES","COAP","VMWARE","MAIL_SMTPS",\
 "FILETOPIA","UBNTAC2","KONTIKI","OPENFT","FASTTRACK","GNUTELLA","EDONKEY","BITTORRENT",\
@@ -58,10 +66,19 @@ struct xt_ndpi_mtinfo {
 "VEVO","PANDORA","QUIC","WHATSAPP_VOICE","EAQ","GIT","DRDA","KAKAOTALK","KAKAOTALK_VOICE","TWITCH","QUICKPLAY","OPENDNS",\
 "MPEGTS","SNAPCHAT","DEEZER","INSTAGRAM","MICROSOFT","HOTSPOT_SHIELD","OCS","OFFICE_365","CLOUDFLARE","MS_ONE_DRIVE","MQTT",\
 "RX","SINA","STARCRAFT","TEREDO","HEP","HANGOUT","CHECK"
+*/
 #endif
 
 #ifndef NDPI_PROTOCOL_SHORT_STRING
-#define NDPI_PROTOCOL_SHORT_STRING "unknown","ftp","pop","smtp","imap","dns","ipp","http","mdns","ntp",\
+#define NDPI_PROTOCOL_SHORT_STRING "unknown","ftp","pop","smtp","imap","dns","http","ntp",\
+"netbios","nfs","snmp","xdmcp","smb","syslog","dhcp","postgres","mysql","hotmail","directdownload","pops",\
+"directconnect","coap","smtps","rtsp","imaps","http_download","ssl_no_cert","telnet","ipsec","gre","icmp","igmp","egp","sctp","ospf","ipip","rtp","rdp",\
+"ssl","ssh","icmpv6","dhcpv6","http_application_activesync","ldap","mssql","pptp","dropbox","gmail","google_maps","youtube","skype","google",\
+"http_connect","http_proxy","windows_update","openvpn","noe","ciscovpn","tor","rtcp","rsync","oracle","whois_das",\
+"collectd","socks","rtmp","ftpdata","zmq","redis","git","opendns","mqtt","dpi_check",NULL
+
+/*
+"unknown","ftp","pop","smtp","imap","dns","ipp","http","mdns","ntp",\
 "netbios","nfs","ssdp","bgp","snmp","xdmcp","smb","syslog","dhcp","postgres","mysql","hotmail","directdownload","pops",\
 "applejuice","directconnect","socrates","coap","vmware","smtps",\
 "filetopia","ubntac2","kontiki","openft","fasttrack","gnutella","edonkey","bittorrent",\
@@ -80,6 +97,7 @@ struct xt_ndpi_mtinfo {
 "vevo","pandora","quic","whatsapp_voice","eaq","git","drda","kakaotalk","kakaotalk_voice","twitch","quickplay","opendns",\
 "mpegts","snapchat","deezer","instagram","microsoft","hotspot_shield","ocs","office_365","cloudflare","ms_one_drive","mqtt",\
 "rx","sina","starcraft","teredo","hep","hangout","dpi_check"
+*/
 #endif
 
 #ifndef NDPI_LAST_NFPROTO

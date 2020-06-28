@@ -100,6 +100,7 @@ ndpi_mt_help(void)
 
 	printf("ndpi match options:\n");
         for (i = 1; i <= NDPI_LAST_NFPROTO; i++){
+                if(prot_short_str[i]==NULL) return;
                 printf("--%s Match for %s protocol packets.\n",
                        prot_short_str[i], prot_long_str[i]);
         }

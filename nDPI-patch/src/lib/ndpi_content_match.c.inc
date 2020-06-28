@@ -134,8 +134,8 @@ static ndpi_network host_protocol_list[] = {
     216.115.208.0/20
     216.219.112.0/20
   */
-  { 0xD873D000 /* 216.115.208.0 */, 20, NDPI_PROTOCOL_CITRIX_ONLINE },
-  { 0xD8DB7000 /* 216.219.112.0 */, 20, NDPI_PROTOCOL_CITRIX_ONLINE },
+//  { 0xD873D000 /* 216.115.208.0 */, 20, NDPI_PROTOCOL_CITRIX_ONLINE },
+//  { 0xD8DB7000 /* 216.219.112.0 */, 20, NDPI_PROTOCOL_CITRIX_ONLINE },
 
   /*
     Webex
@@ -151,9 +151,9 @@ static ndpi_network host_protocol_list[] = {
     54.93.255.64/26
     52.0.252.0/22
   */
-  { 0x36A93FA0 /* 54.169.63.160 */, 27, NDPI_PROTOCOL_VIBER },
-  { 0x365DFF40 /* 54.93.255.64 */, 26, NDPI_PROTOCOL_VIBER },
-  { 0x3400FC00 /* 52.0.252.0 */, 22, NDPI_PROTOCOL_VIBER },
+//  { 0x36A93FA0 /* 54.169.63.160 */, 27, NDPI_PROTOCOL_VIBER },
+//  { 0x365DFF40 /* 54.93.255.64 */, 26, NDPI_PROTOCOL_VIBER },
+//  { 0x3400FC00 /* 52.0.252.0 */, 22, NDPI_PROTOCOL_VIBER },
 
   /*
     Apple (FaceTime, iMessage,...)
@@ -167,9 +167,9 @@ static ndpi_network host_protocol_list[] = {
     199.47.216.0/22
     45.58.64.0/20
   */
-  { 0x6CA0A000 /* 108.160.160.0 */, 20, NDPI_PROTOCOL_DROPBOX },
-  { 0xC72FD800 /* 199.47.216.0 */, 22, NDPI_PROTOCOL_DROPBOX },
-  { 0x2D3A4000 /* 45.58.64.0 */, 20, NDPI_PROTOCOL_DROPBOX },
+//  { 0x6CA0A000 /* 108.160.160.0 */, 20, NDPI_PROTOCOL_DROPBOX },
+//  { 0xC72FD800 /* 199.47.216.0 */, 22, NDPI_PROTOCOL_DROPBOX },
+//  { 0x2D3A4000 /* 45.58.64.0 */, 20, NDPI_PROTOCOL_DROPBOX },
 
   /*
     Skype (Microsoft CDN)
@@ -183,19 +183,19 @@ static ndpi_network host_protocol_list[] = {
     40.126.129.109/32
     65.55.223.0/26
   */
-  { 0x9D388740 /* 157.56.135.64 */, 26, NDPI_PROTOCOL_SKYPE },
-  { 0x9D38B900 /* 157.56.185.0 */, 26, NDPI_PROTOCOL_SKYPE },
-  { 0x9D383400 /* 157.56.52.0 */, 26, NDPI_PROTOCOL_SKYPE },
-  { 0x9D383580 /* 157.56.53.128 */, 25, NDPI_PROTOCOL_SKYPE },
-  { 0x9D38C600 /* 157.56.198.0 */, 26, NDPI_PROTOCOL_SKYPE },
-  { 0x9D3C0000 /* 157.60.0.0 */, 16, NDPI_PROTOCOL_SKYPE },
-  { 0x9D360000 /* 157.54.0.0 */, 15, NDPI_PROTOCOL_SKYPE },
-  { 0x0D6B0380 /* 13.107.3.128 */, 32, NDPI_PROTOCOL_SKYPE },
-  { 0x0D6B0381 /* 13.107.3.129 */, 32, NDPI_PROTOCOL_SKYPE },
-  { 0x6FDD4000 /* 111.221.64.0 */, 18, NDPI_PROTOCOL_SKYPE },
-  { 0x5BBED800 /* 91.190.216.0 */, 21, NDPI_PROTOCOL_SKYPE },
-  { 0x287F816D /* 40.126.129.109 */, 32, NDPI_PROTOCOL_SKYPE },
-  { 0x4237DF00 /* 65.55.223.0 */, 26, NDPI_PROTOCOL_SKYPE },
+//  { 0x9D388740 /* 157.56.135.64 */, 26, NDPI_PROTOCOL_SKYPE },
+//  { 0x9D38B900 /* 157.56.185.0 */, 26, NDPI_PROTOCOL_SKYPE },
+//  { 0x9D383400 /* 157.56.52.0 */, 26, NDPI_PROTOCOL_SKYPE },
+//  { 0x9D383580 /* 157.56.53.128 */, 25, NDPI_PROTOCOL_SKYPE },
+//  { 0x9D38C600 /* 157.56.198.0 */, 26, NDPI_PROTOCOL_SKYPE },
+//  { 0x9D3C0000 /* 157.60.0.0 */, 16, NDPI_PROTOCOL_SKYPE },
+//  { 0x9D360000 /* 157.54.0.0 */, 15, NDPI_PROTOCOL_SKYPE },
+//  { 0x0D6B0380 /* 13.107.3.128 */, 32, NDPI_PROTOCOL_SKYPE },
+//  { 0x0D6B0381 /* 13.107.3.129 */, 32, NDPI_PROTOCOL_SKYPE },
+ // { 0x6FDD4000 /* 111.221.64.0 */, 18, NDPI_PROTOCOL_SKYPE },
+//  { 0x5BBED800 /* 91.190.216.0 */, 21, NDPI_PROTOCOL_SKYPE },
+//  { 0x287F816D /* 40.126.129.109 */, 32, NDPI_PROTOCOL_SKYPE },
+//  { 0x4237DF00 /* 65.55.223.0 */, 26, NDPI_PROTOCOL_SKYPE },
 
 
   /*
@@ -203,7 +203,7 @@ static ndpi_network host_protocol_list[] = {
     descr:          Blizzard Entertainment, Inc
     origin:         AS57976
   */
-  { 0x052AA000 /* 5.42.160.0 */, 19, NDPI_PROTOCOL_STARCRAFT },
+//  { 0x052AA000 /* 5.42.160.0 */, 19, NDPI_PROTOCOL_STARCRAFT },
 
   /*
     Google
@@ -242,7 +242,7 @@ static ndpi_network host_protocol_list[] = {
   { 0x959AA400 /* 149.154.164.0/22 */, 22, NDPI_PROTOCOL_TELEGRAM},
   { 0x959AA800 /* 149.154.168.0/22 */, 22, NDPI_PROTOCOL_TELEGRAM},
 
-  /* TOR  */
+  /* TOR */ 
   { 0x012A1231, 32, NDPI_PROTOCOL_TOR },
   { 0x01E69FA1, 32, NDPI_PROTOCOL_TOR },
   { 0x020DE985, 32, NDPI_PROTOCOL_TOR },
@@ -7195,8 +7195,7 @@ static ndpi_network host_protocol_list[] = {
   { 0xDF85F4CA, 32, NDPI_PROTOCOL_TOR },
   { 0xDFE57B41, 32, NDPI_PROTOCOL_TOR },
 
-  /*
-    Twitch ingestion servers :
+  /*  Twitch ingestion servers :
     https://api.twitch.tv/kraken/ingests
     Edoardo Dominici edoaramis@gmail.com
   */
@@ -7293,8 +7292,8 @@ ndpi_protocol_match host_match[] = {
   { "itunes.apple.com",			"AppleiTunes",		NDPI_SERVICE_APPLE_ITUNES, NDPI_PROTOCOL_FUN },
   { ".cnn.c",				"CNN",			NDPI_SERVICE_CNN, NDPI_PROTOCOL_FUN },
   { ".cnn.net",				"CNN",			NDPI_SERVICE_CNN, NDPI_PROTOCOL_FUN },
-  { ".dropbox.com",			"DropBox",		NDPI_SERVICE_DROPBOX, NDPI_PROTOCOL_SAFE },
-  { "log.getdropbox.com",		"DropBox",		NDPI_SERVICE_DROPBOX, NDPI_PROTOCOL_SAFE },
+//  { ".dropbox.com",			"DropBox",		NDPI_SERVICE_DROPBOX, NDPI_PROTOCOL_SAFE },
+//  { "log.getdropbox.com",		"DropBox",		NDPI_SERVICE_DROPBOX, NDPI_PROTOCOL_SAFE },
   { ".ebay.",				"eBay",			NDPI_SERVICE_EBAY, NDPI_PROTOCOL_ACCEPTABLE },
   { ".ebay.com",			"eBay",			NDPI_SERVICE_EBAY, NDPI_PROTOCOL_ACCEPTABLE },
   { ".ebaystatic.com",			"eBay",			NDPI_SERVICE_EBAY, NDPI_PROTOCOL_ACCEPTABLE },
@@ -7326,52 +7325,52 @@ ndpi_protocol_match host_match[] = {
   { "mail.google.",			"GMail",		NDPI_SERVICE_GMAIL, NDPI_PROTOCOL_SAFE },
   { "mail.outlook.com",                 "Hotmail",              NDPI_SERVICE_HOTMAIL, NDPI_PROTOCOL_SAFE },
   { ".last.fm",				"LastFM",		NDPI_SERVICE_LASTFM, NDPI_PROTOCOL_FUN },
-  { "msn.com",				"MSN",			NDPI_SERVICE_MSN, NDPI_PROTOCOL_FUN },
+//  { "msn.com",				"MSN",			NDPI_SERVICE_MSN, NDPI_PROTOCOL_FUN },
   { "netflix.com",			"NetFlix",		NDPI_SERVICE_NETFLIX, NDPI_PROTOCOL_FUN	},
   { "nflxext.com",			"NetFlix",		NDPI_SERVICE_NETFLIX, NDPI_PROTOCOL_FUN	},
   { "nflximg.com",			"NetFlix",		NDPI_SERVICE_NETFLIX, NDPI_PROTOCOL_FUN },
   { "nflximg.net",			"NetFlix",		NDPI_SERVICE_NETFLIX, NDPI_PROTOCOL_FUN },
   { "nflxvideo.net",			"NetFlix",		NDPI_SERVICE_NETFLIX, NDPI_PROTOCOL_FUN },
-  { ".skype.",				"Skype",		NDPI_SERVICE_SKYPE, NDPI_PROTOCOL_ACCEPTABLE },
-  { ".skypeassets.",			"Skype",		NDPI_SERVICE_SKYPE, NDPI_PROTOCOL_ACCEPTABLE },
-  { ".skypedata.",			"Skype",		NDPI_SERVICE_SKYPE, NDPI_PROTOCOL_ACCEPTABLE },
-  { ".skypeecs-", /* no final . */	"Skype",		NDPI_SERVICE_SKYPE, NDPI_PROTOCOL_ACCEPTABLE },
-  { ".skypeforbusiness.",       	"Skype",		NDPI_SERVICE_SKYPE, NDPI_PROTOCOL_ACCEPTABLE },
-  { ".lync.com",   	                "Skype",		NDPI_SERVICE_SKYPE, NDPI_PROTOCOL_ACCEPTABLE },
+ // { ".skype.",				"Skype",		NDPI_SERVICE_SKYPE, NDPI_PROTOCOL_ACCEPTABLE },
+//  { ".skypeassets.",			"Skype",		NDPI_SERVICE_SKYPE, NDPI_PROTOCOL_ACCEPTABLE },
+//  { ".skypedata.",			"Skype",		NDPI_SERVICE_SKYPE, NDPI_PROTOCOL_ACCEPTABLE },
+//  { ".skypeecs-", /* no final . */	"Skype",		NDPI_SERVICE_SKYPE, NDPI_PROTOCOL_ACCEPTABLE },
+//  { ".skypeforbusiness.",       	"Skype",		NDPI_SERVICE_SKYPE, NDPI_PROTOCOL_ACCEPTABLE },
+//  { ".lync.com",   	                "Skype",		NDPI_SERVICE_SKYPE, NDPI_PROTOCOL_ACCEPTABLE },
   { ".tuenti.com",			"Tuenti",		NDPI_SERVICE_TUENTI, NDPI_PROTOCOL_ACCEPTABLE },
   { ".twttr.com",			"Twitter",		NDPI_SERVICE_TWITTER, NDPI_PROTOCOL_ACCEPTABLE },
   { "twitter.",				"Twitter",		NDPI_SERVICE_TWITTER, NDPI_PROTOCOL_ACCEPTABLE },
   { "twimg.com",			"Twitter",		NDPI_SERVICE_TWITTER, NDPI_PROTOCOL_ACCEPTABLE },
-  { ".viber.com",			"Viber",		NDPI_SERVICE_VIBER, NDPI_PROTOCOL_ACCEPTABLE },
-  { ".cdn.viber.com",			"Viber",		NDPI_SERVICE_VIBER, NDPI_PROTOCOL_ACCEPTABLE },  
+//  { ".viber.com",			"Viber",		NDPI_SERVICE_VIBER, NDPI_PROTOCOL_ACCEPTABLE },
+//  { ".cdn.viber.com",			"Viber",		NDPI_SERVICE_VIBER, NDPI_PROTOCOL_ACCEPTABLE },  
   { "wikipedia.",			"Wikipedia",		NDPI_SERVICE_WIKIPEDIA, NDPI_PROTOCOL_ACCEPTABLE },
   { "wikimedia.",			"Wikipedia",		NDPI_SERVICE_WIKIPEDIA, NDPI_PROTOCOL_ACCEPTABLE },
   { "mediawiki.",			"Wikipedia",		NDPI_SERVICE_WIKIPEDIA, NDPI_PROTOCOL_ACCEPTABLE },
   { "wikimediafoundation.",		"Wikipedia",		NDPI_SERVICE_WIKIPEDIA, NDPI_PROTOCOL_ACCEPTABLE },
   { ".whatsapp.",			"WhatsApp",		NDPI_SERVICE_WHATSAPP, NDPI_PROTOCOL_ACCEPTABLE },
-  { ".yahoo.",				"Yahoo",		NDPI_SERVICE_YAHOO, NDPI_PROTOCOL_ACCEPTABLE },
-  { ".yimg.com",			"Yahoo",		NDPI_SERVICE_YAHOO, NDPI_PROTOCOL_ACCEPTABLE },
-  { "yahooapis.",			"Yahoo",		NDPI_SERVICE_YAHOO, NDPI_PROTOCOL_ACCEPTABLE },
+//  { ".yahoo.",				"Yahoo",		NDPI_SERVICE_YAHOO, NDPI_PROTOCOL_ACCEPTABLE },
+//  { ".yimg.com",			"Yahoo",		NDPI_SERVICE_YAHOO, NDPI_PROTOCOL_ACCEPTABLE },
+//  { "yahooapis.",			"Yahoo",		NDPI_SERVICE_YAHOO, NDPI_PROTOCOL_ACCEPTABLE },
   { "youtube.",				"YouTube",		NDPI_SERVICE_YOUTUBE, NDPI_PROTOCOL_FUN },
   { "yt3.ggpht.com",                    "YouTube",              NDPI_SERVICE_YOUTUBE, NDPI_PROTOCOL_FUN },
   { ".googlevideo.com",                 "YouTube",              NDPI_SERVICE_YOUTUBE, NDPI_PROTOCOL_FUN },
   { ".ytimg.com",			"YouTube",		NDPI_SERVICE_YOUTUBE, NDPI_PROTOCOL_FUN },
   { "youtube-nocookie.",		"YouTube",		NDPI_SERVICE_YOUTUBE, NDPI_PROTOCOL_FUN },
   { ".vevo.com",			"Vevo",			NDPI_SERVICE_VEVO,    NDPI_PROTOCOL_FUN },
-  { ".spotify.",			"Spotify",		NDPI_PROTOCOL_SPOTIFY, NDPI_PROTOCOL_FUN },
+//  { ".spotify.",			"Spotify",		NDPI_PROTOCOL_SPOTIFY, NDPI_PROTOCOL_FUN },
   { ".pandora.com",			"Pandora",		NDPI_SERVICE_PANDORA,  NDPI_PROTOCOL_FUN },
-  { ".torproject.org",                  "Tor",                  NDPI_PROTOCOL_TOR, NDPI_PROTOCOL_POTENTIALLY_DANGEROUS },
-  { ".kakao.com",                       "KakaoTalk",            NDPI_SERVICE_KAKAOTALK, NDPI_PROTOCOL_FUN },
+//  { ".torproject.org",                  "Tor",                  NDPI_PROTOCOL_TOR, NDPI_PROTOCOL_POTENTIALLY_DANGEROUS },
+//  { ".kakao.com",                       "KakaoTalk",            NDPI_SERVICE_KAKAOTALK, NDPI_PROTOCOL_FUN },
   { "ttvnw.net",                        "Twitch",               NDPI_SERVICE_TWITCH, NDPI_PROTOCOL_FUN },
   { "static-cdn.jtvnw.net",             "Twitch",               NDPI_SERVICE_TWITCH, NDPI_PROTOCOL_FUN },
   { "www-cdn.jtvnw.net",                "Twitch",               NDPI_SERVICE_TWITCH, NDPI_PROTOCOL_FUN },
   { "quickplay.com",                    "QuickPlay",            NDPI_SERVICE_QUICKPLAY, NDPI_PROTOCOL_FUN },
-  { ".qq.com",                          "QQ",                   NDPI_PROTOCOL_QQ, NDPI_PROTOCOL_FUN },
-  { ".weibo.com",                       "Sina(Weibo)",          NDPI_SERVICE_SINA, NDPI_PROTOCOL_FUN }, 
-  { ".sinaimg.cn",                      "Sina",                 NDPI_SERVICE_SINA, NDPI_PROTOCOL_FUN }, 
-  { ".sinajs.cn",                       "Sina",                 NDPI_SERVICE_SINA, NDPI_PROTOCOL_FUN },
-  { ".sina.cn",                         "Sina",                 NDPI_SERVICE_SINA, NDPI_PROTOCOL_FUN },
-  { ".sina.com.cn",                     "Sina",                 NDPI_SERVICE_SINA, NDPI_PROTOCOL_FUN },
+//  { ".qq.com",                          "QQ",                   NDPI_PROTOCOL_QQ, NDPI_PROTOCOL_FUN },
+//  { ".weibo.com",                       "Sina(Weibo)",          NDPI_SERVICE_SINA, NDPI_PROTOCOL_FUN }, 
+//  { ".sinaimg.cn",                      "Sina",                 NDPI_SERVICE_SINA, NDPI_PROTOCOL_FUN }, 
+//  { ".sinajs.cn",                       "Sina",                 NDPI_SERVICE_SINA, NDPI_PROTOCOL_FUN },
+//  { ".sina.cn",                         "Sina",                 NDPI_SERVICE_SINA, NDPI_PROTOCOL_FUN },
+//  { ".sina.com.cn",                     "Sina",                 NDPI_SERVICE_SINA, NDPI_PROTOCOL_FUN },
 
 
   /* https://support.cipafilter.com/index.php?/Knowledgebase/Article/View/117/0/snapchat---how-to-block */
@@ -7403,7 +7402,7 @@ ndpi_protocol_match host_match[] = {
   { "update.microsoft.com",             "WindowsUpdate",        NDPI_SERVICE_WINDOWS_UPDATE, NDPI_PROTOCOL_ACCEPTABLE },
   { ".windowsupdate.com",               "WindowsUpdate",        NDPI_SERVICE_WINDOWS_UPDATE, NDPI_PROTOCOL_ACCEPTABLE },
 
-  { "worldofwarcraft.com",              "WorldOfWarcraft",      NDPI_PROTOCOL_WORLDOFWARCRAFT, NDPI_PROTOCOL_FUN },
+//  { "worldofwarcraft.com",              "WorldOfWarcraft",      NDPI_PROTOCOL_WORLDOFWARCRAFT, NDPI_PROTOCOL_FUN },
   { ".anchorfree.",                     "HotspotShield",        NDPI_SERVICE_HOTSPOT_SHIELD, NDPI_PROTOCOL_POTENTIALLY_DANGEROUS },
   { "hotspotshield.com",                "HotspotShield",        NDPI_SERVICE_HOTSPOT_SHIELD, NDPI_PROTOCOL_POTENTIALLY_DANGEROUS },
   { ".webex.com",                       "Webex",                NDPI_PROTOCOL_WEBEX, NDPI_PROTOCOL_ACCEPTABLE },
@@ -7484,8 +7483,8 @@ ndpi_protocol_match content_match[] = {
   { "audio/x-wav",			NULL,		        NDPI_CONTENT_WINDOWSMEDIA, NDPI_PROTOCOL_FUN },
   { "application/vnd.ms.wms-hdr.asfv1",	NULL,		        NDPI_CONTENT_WINDOWSMEDIA, NDPI_PROTOCOL_FUN },
   { "NSPlayer/",			NULL,		        NDPI_CONTENT_WINDOWSMEDIA, NDPI_PROTOCOL_FUN },
-  { "application/x-mms-framed",		NULL,		        NDPI_CONTENT_MMS, NDPI_PROTOCOL_FUN },
-  { "Xbox Live Client/",		NULL,		        NDPI_PROTOCOL_XBOX, NDPI_PROTOCOL_FUN },
+//  { "application/x-mms-framed",		NULL,		        NDPI_CONTENT_MMS, NDPI_PROTOCOL_FUN },
+//  { "Xbox Live Client/",		NULL,		        NDPI_PROTOCOL_XBOX, NDPI_PROTOCOL_FUN },
   { "Windows-Update-Agent",		NULL,		        NDPI_SERVICE_WINDOWS_UPDATE, NDPI_PROTOCOL_ACCEPTABLE },
   { "audio/webm",			NULL,		        NDPI_CONTENT_WEBM, NDPI_PROTOCOL_FUN },
   { "video/webm",			NULL,		        NDPI_CONTENT_WEBM, NDPI_PROTOCOL_FUN },
